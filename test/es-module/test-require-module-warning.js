@@ -25,7 +25,7 @@ spawnSyncAndAssert(process.execPath, [
     );
     assert.match(
       lines[2],
-      /at require \(.*modules\/helpers\:\d+:\d+\)/
+      /at require \(.*modules\/helpers:\d+:\d+\)/
     );
     assert.match(
       lines[3],
